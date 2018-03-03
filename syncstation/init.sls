@@ -1,5 +1,5 @@
 include:
-  - office_apps
+  - syncstation.office_apps
   - networking_apps
   - i3
   - repos.notesalexp-stretch
