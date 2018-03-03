@@ -13,8 +13,6 @@
 {{user}}:
   user.present:
     - uid: {{uid}}
-    - optional_groups:
-      - company_llc
       
 {% endfor %}
 
