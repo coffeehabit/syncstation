@@ -3,7 +3,6 @@ include:
   - syncstation.network_apps
   - syncstation.i3
   - syncstation.repos.keepassxc-repo
-  - syncstation.repos.syncthing-repo
 
 mc:
   pkg.installed
