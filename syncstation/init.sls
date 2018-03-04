@@ -4,7 +4,6 @@ include:
   - syncstation.network_apps
   - syncstation.i3
 
-
 mc:
   pkg.installed
 
