@@ -8,7 +8,6 @@
   nm-applet:
     pkg.installed
 {% endif %}
-
 openvpn:
   pkg.installed
 
