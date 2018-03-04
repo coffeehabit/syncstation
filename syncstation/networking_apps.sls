@@ -1,13 +1,14 @@
 {% if grains['os'] == 'Debian' %}
-  include:
-    syncstation.repos.syncthing
+include:
+  syncstation.repos.syncthing
 
-  blueman-applet:
-    pkg.installed
-    
-  nm-applet:
-    pkg.installed
+blueman-applet:
+  pkg.installed
+
+nm-applet:
+  pkg.installed
 {% endif %}
+
 openvpn:
   pkg.installed
 
