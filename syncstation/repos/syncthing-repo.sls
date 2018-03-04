@@ -1,5 +1,7 @@
-include: 
-  - syncstation.repos.apt-transport-https
+apt-transport-https:
+  pkg.installed
+  - require_in:
+    - pkgrepo: syncthing-repo
   
 syncthing-repo:
   pkgrepo.managed:
@@ -7,5 +9,3 @@ syncthing-repo:
     - name: deb https://apt.syncthing.net/ syncthing stable
     - file: /etc/apt/sources.list
     - key_url: https://syncthing.net/release-key.txt
-  requires:
-    - pkg.installed: syncstation.repos.apt-transport-https
