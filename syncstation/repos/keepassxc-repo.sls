@@ -1,4 +1,4 @@
-base:
+keepassxc-repo:
   pkgrepo.managed:
    - name: deb http://notesalexp.org/debian/stretch/ stretch main
    - gpgcheck: 1
