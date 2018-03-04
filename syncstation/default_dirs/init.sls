@@ -9,13 +9,6 @@
 # ----
 
 # Create default users
-{% for user, uid in pillar.get('users', {}).items() %}
-{{user}}:
-  user.present:
-    - uid: {{uid}}
-      
-{% endfor %}
-
 # Create home directories
 {% for dir, user in pillar.get('home_dirs', {}).items() %}
 /home/{{user}}/{{dir}}:
