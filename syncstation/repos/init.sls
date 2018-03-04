@@ -1,3 +1,3 @@
 include:
   - syncstation.repos.keepassxc-repo
-  - syncstation.repos.syncthing-repo
+  # - syncstation.repos.syncthing-repo
