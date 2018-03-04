@@ -1,6 +1,6 @@
 {% if grains['os'] == 'Debian' %}
 include:
-  syncstation.repos.syncthing
+  - syncstation.repos.syncthing
 
 blueman-applet:
   pkg.installed
