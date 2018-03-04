@@ -1,8 +1,3 @@
-apt-transport-https:
-  pkg.installed:
-  - require_in:
-    - pkgrepo: syncthing-repo
-  
 syncthing-repo:
   pkgrepo.managed:
     - humanname: deb-syncthing
