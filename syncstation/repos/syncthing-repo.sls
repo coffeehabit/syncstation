@@ -1,3 +1,6 @@
+include: 
+  - syncstation.repos.apt-transport-https
+  
 syncthing-repo:
   pkgrepo.managed:
     - humanname: deb-syncthing
