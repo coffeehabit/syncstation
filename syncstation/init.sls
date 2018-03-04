@@ -1,8 +1,9 @@
 include:
+  - syncstation.repos
   - syncstation.office_apps
   - syncstation.network_apps
   - syncstation.i3
-  - syncstation.repos
+
 
 mc:
   pkg.installed
