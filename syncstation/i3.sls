@@ -11,4 +11,4 @@ xcfe4-terminal:
   pkg.installed
 
 include:
-  - configure-i3
+  - syncstation.configure-i3
