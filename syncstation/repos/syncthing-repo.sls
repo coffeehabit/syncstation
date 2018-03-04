@@ -8,4 +8,4 @@ syncthing-repo:
     - file: /etc/apt/sources.list
     - key_url: https://syncthing.net/release-key.txt
   requires:
-    - pkg: syncstation.repos.apt-transport-https
+    - pkg.installed: syncstation.repos.apt-transport-https
