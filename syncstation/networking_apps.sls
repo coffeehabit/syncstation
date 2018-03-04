@@ -1,4 +1,4 @@
-{% if salt['grains.get']('os', 'debian') %}
+{% if salt['grains.get']('os', 'Debian') %}
   include:
     syncstation.repos.syncthing
 
