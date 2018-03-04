@@ -7,7 +7,7 @@ rofi:
 i3blocks:
   pkg.installed
 
-xcfe4-terminal:
+xfce4-terminal:
   pkg.installed
 
 include:
