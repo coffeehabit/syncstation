@@ -1,8 +1,9 @@
 include:
   - syncstation.office_apps
-  - networking_apps
-  - i3
-  - repos.notesalexp-stretch
+  - syncstation.networking_apps
+  - syncstation.i3
+  - syncstation.repos.keepassxc
+  - syncstation.repos.syncthing
 
 mc:
   pkg.installed
