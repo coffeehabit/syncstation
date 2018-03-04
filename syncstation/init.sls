@@ -1,5 +1,4 @@
 include:
-  - syncstation.repos
   - syncstation.office_apps
   - syncstation.network_apps
   - syncstation.i3
