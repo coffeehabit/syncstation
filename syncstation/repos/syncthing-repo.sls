@@ -1,5 +1,5 @@
 apt-transport-https:
-  pkg.installed
+  pkg.installed:
   - require_in:
     - pkgrepo: syncthing-repo
   
