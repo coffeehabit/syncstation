@@ -1,3 +1,6 @@
+include:
+  - syncstation.repos.keepassxc
+
 libreoffice:
   pkg.installed
 
@@ -11,4 +14,7 @@ gimp:
   pkg.installed
   
 shutter:
+  pkg.installed
+
+keepassxc:
   pkg.installed
