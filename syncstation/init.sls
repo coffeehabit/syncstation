@@ -1,5 +1,4 @@
 include:
-  - users
   - syncstation.office_apps
   - syncstation.network_apps
   - syncstation.i3
