@@ -10,5 +10,5 @@ i3blocks:
 xfce4-terminal:
   pkg.installed
 
-include:
-  - syncstation.configure-i3
+# include:
+#   - syncstation.configure-i3
