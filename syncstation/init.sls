@@ -12,7 +12,7 @@ htop:
 keepassxc:
   pkg.installed
   
-firefox:
+firefox-esr:
   pkg.installed
 
 git:
