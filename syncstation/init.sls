@@ -5,6 +5,9 @@ include:
 
 mc:
   pkg.installed
+  
+htop:
+  pkg.installed
 
 keepassxc:
   pkg.installed
