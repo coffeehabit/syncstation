@@ -1,5 +1,4 @@
 include:
-  - default_dirs
   - syncstation.office_apps
   - syncstation.network_apps
   - syncstation.i3
