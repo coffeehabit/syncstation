@@ -6,7 +6,7 @@ darktable:
   pkg.installed
 {% endif %}
   
-obs:
+obs-studio:
   pkg.installed
 
 gimp:
