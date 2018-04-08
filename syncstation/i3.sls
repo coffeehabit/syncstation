@@ -10,5 +10,7 @@ i3blocks:
 xfce4-terminal:
   pkg.installed
 
+# Use this if not using the users-formula:
+#
 # include:
 #   - syncstation.configure-i3
