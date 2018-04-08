@@ -1,14 +1,27 @@
-i3:
-  pkg.installed
+i3-packages:
+  pkg.installed:
+    - names:
+      - xinit
+      - lightdm
+      - i3
+      - i3blocks
+      - rofi
+      - xfce4-terminal
 
-rofi:
-  pkg.installed
-  
-i3blocks:
-  pkg.installed
+{% if 'users' in pillar.items() %}
+{% for user in pillar.get('users', []) %}
+manage-{{ user }}-xinit:
+  file.managed:
+    - name: '/home/{{ user }}/.xinitrc'
+    - contents: |
+        #!/bin/bash
 
-xfce4-terminal:
-  pkg.installed
+        . /etc/X11/Xsession
+        exec i3-wm
+    - require:
+      - pkg: xinit
+{% endfor %}
+{% endif %}
 
 # Use this if not using the users-formula:
 #
